@@ -42,9 +42,9 @@ The entity has the following fields (attributes):
 
 It is necessary to display the name, manufacturer and price for mobile phones with a quantity greater than 2.
 
-FIles: viewing_data.sql
+FIle: [viewing_data.sql](viewing_data.sql)
 
-## Task3: 
+## Task3:
 
 There is a table (entity) with mobile_phones mobile phones.
 
@@ -57,7 +57,7 @@ The entity has the following fields (attributes):
 
 It is necessary to display the ID, name, manufacturer, quantity and price for mobile phones that have a Samsung manufacturer.
 
-FIles: viewing_data.sql
+FIle: [viewing_data.sql](viewing_data.sql)
 
 ## Task4: Create a table (entity) with manufacturer orders
 
@@ -78,7 +78,7 @@ List of fields (attributes):
 
 Using the CRUD INSERT operation, fill the manufacturer entity according to the data available in the manufacturer attribute of the mobile_phones entity.
 
-FIles: manufacturer_orders.sql
+FIle: [manufacturer_orders.sql](manufacturer_orders.sql)
 
 ## Task5: Show information
 
@@ -106,7 +106,7 @@ Statuses of the number of mobile phones (depending on the number):
 
 It is necessary to display the name, manufacturer and quantity status for mobile phones.
 
-FIles: show_information.sql
+FIle: [show_information.sql](show_information.sql)
 
 ## Task6: Update the data, delete the attribute
 
@@ -147,7 +147,7 @@ Remove the manufacturer attribute from the mobile_phones entity.
 
 Output the ID, name, and manufacturer ID of the mobile_phones entity.
 
-FIles: update_data.sql
+FIle: [update_data.sql](update_data.sql)
 
 ## Task7: Display detailed description of the status
 
@@ -171,7 +171,7 @@ Detailed description of the order statuses:
 
 It is necessary to display the ID and a detailed description of the order status.
 
-FIles: order_status.sql
+FIle: [order_status.sql](order_status.sql)
 
 ## Task8: Sort data
 
@@ -187,7 +187,7 @@ The entity has the following fields (attributes):
 
 It is necessary to output the identifier, first name, last name, salary from the staff entity, while the data must be sorted in ascending order of salary.
 
-FIles: sort_data.sql
+FIle: [sort_data.sql](sort_data.sql)
 
 ## Task9: Salary sort
 
@@ -203,7 +203,7 @@ The entity has the following fields (attributes):
 
 It is necessary to output the ID, first name, last name, salary from the staff entity, while the data must be sorted in descending order of salary.
 
-FIles: salary_sort.sql
+FIle: [salary_sort.sql](salary_sort.sql)
 
 ## Task10: Highly paid employees
 
@@ -219,7 +219,7 @@ age - age.
 
 It is necessary to output the ID, first name, last name, and salary of the five highest-paid employees from the staff entity.
 
-FIles: highly_paid_employees.sql
+FIle: [highly_paid_employees.sql](highly_paid_employees.sql)
 
 ## Task11: Display total salary
 
@@ -237,7 +237,7 @@ The entity has the following fields (attributes):
 Calculate and output the total salary for each specialty (rost) from the staff entity.
 The order of attributes output: position, total salary.
 
-FIles: total_salary.sql
+FIle: [total_salary.sql](total_salary.sql)
 
 ## Task12: Display employees age
 
@@ -254,7 +254,7 @@ The entity has the following fields (attributes):
 
 Calculate and output the number of employees with the position of 'Worker' and the age of at least 24 years and no older than 49 years.
 
-FIles: employees_age.sql
+FIle: [employees_age.sql](employees_age.sql)
 
 ## Task13: Display unique posts
 
@@ -271,7 +271,7 @@ The entity has the following fields (attributes):
 
 Calculate and output the number of unique positions available to employees in the 'staff' entity.
 
-FIles: unique_posts.sql
+FIle: [unique_posts.sql](unique_posts.sql)
 
 ## Task14: Display average age
 
@@ -289,7 +289,7 @@ The entity has the following fields (attributes):
 Find the average age of employees for each position from the staff entity.
 Output only those positions with an average age of less than 30 years.
 
-FIles: average_age.sql
+FIle: [average_age.sql](average_age.sql)
 
 ## Task15: Find the total number of likes that female users have received
 
@@ -338,7 +338,7 @@ The media entity has the following fields (attributes):
 
 Find the total number of likes that female users have received.
 
-FIles: likes_number.sql
+FIle: [likes_number.sql](likes_number.sql)
 
 ## Task16: Sorting by the number of likes
 
@@ -380,7 +380,7 @@ The "likes" entity has the following fields (attributes):
 Find the number of likes that were put by female and male users.
 Print the name of the gender (by converting the value of the attribute f to female, and the value ‘m` to male) and the number of likes, applying descending sorting to the number of likes.
 
-FIles: likes_sorting.sql
+FIle: [likes_sorting.sql](likes_sorting.sql)
 
 ## Task17: Display id of the users who have not sent any messages
 
@@ -412,7 +412,7 @@ The "messages" entity has the following fields (attributes):
 
 Output the IDs of the users who have not sent any messages.
 
-FIles: messages.sql
+FIle: [messages.sql](messages.sql)
 
 ## Task18: Display user id, first name, last name, and number of friends for each user
 
@@ -446,7 +446,7 @@ Friends are users who have a corresponding entry (application) in the "friendshi
 
 Find the number of friends each user has. Print the user ID, first name, last name, and number of cnt friends for each user. Sort the output records in ascending order of the user ID.
 
-FIles: friends_number.sql
+FIle: [friends_number.sql](friends_number.sql)
 
 ## Task19: Display users rank by messages
 
@@ -481,7 +481,7 @@ Depending on the number of messages sent, calculate the rank of users by assigni
 
 Print the received rank, first name, last name, user and number of sent messages. The output list must be sorted in ascending order of rank.
 
-FIles: users_rank_by_messages.sql
+FIle: [users_rank_by_messages.sql](users_rank_by_messages.sql)
 
 ## Task20: Finding the difference of neighboring dates
 
@@ -510,9 +510,14 @@ Calculate the difference between adjacent values of the sending dates. Express t
 
 Print the message ID, the date of sending, the date of sending the next message, and the difference in the date of sending neighboring messages.
 
-FIles: difference_of_neighboring_dates.sql
+FIle: [difference_of_neighboring_dates.sql](difference_of_neighboring_dates.sql)
 
 ## Task21: Date function
 
-Create a function that accepts the number of seconds and formats them in the number of days of the clock. Example: 123456 ->'1 days 10 hours 17 minutes 36 seconds '
-Print only even numbers from 1 to 10. Example: 2,4,6,8,10 This intermediate certification is evaluated according to the "credit" / ""No credit" is set if the listener has successfully completed 1 or 2 tasks "No credit" is set if the listener has successfully completed 0 tasks Evaluation criteria: 1 - the listener has correctly created a function that accepts the number of seconds and their format in the number of days of hours. 2 - Listener you have only seen even numbers from 1 to 10.
+Create a function that accepts the number of seconds and formats them in the number of days of the clock. 
+
+Example: 123456 ->'1 days 10 hours 17 minutes 36 seconds'
+
+Print only even numbers from 1 to 10. Example: 2,4,6,8,10 
+
+FIle: [date_function.sql](date_function.sql)
